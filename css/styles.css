@@ -67,18 +67,29 @@ body {
 .image-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 33px;
 }
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+    width: 100%;
+    max-width: 924px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 .box {
-    height: 315px;
-    width: 286px;
+    height: auto;
+    width: 100%;
+    max-width: 286px;
 }
 .box img {
+    width: 100%;
+    max-width: 286px;
     margin-bottom: 23px;
 }
 .selected2 {
-    height: 315px;
     width: 235px;
 }
 .box h1 {

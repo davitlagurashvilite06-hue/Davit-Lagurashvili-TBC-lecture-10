@@ -1,0 +1,27 @@
+@media (max-width: 1024px) {
+    nav ul li i {
+        display: inline-block;
+        font-size: 30px
+    }
+
+    nav ul li .label {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    div.greece {
+        height: 300px;
+    }
+    .greece img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    p.p1 {
+        font-size: 39px;
+    }
+    p.p2 {
+        font-size: 12px;
+    }
+}
